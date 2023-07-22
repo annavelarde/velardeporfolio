@@ -1,0 +1,26 @@
+{
+    "user": {
+    "firstName": "Anna",
+    "lastName": "Velarde",
+    "contacts": [
+        {
+            "id": "01",
+            "name": "Github",
+            "url": "https://github.com/annavelarde",
+            "icon": "fa fa-github-alt"
+        },
+        {
+            "id": "02",
+            "name": "Gmail",
+            "url": "mailto:annavelardevilaseca@gmail.com",
+            "icon": "fa fa-envelope"
+        },
+        {
+            "id": "03",
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/annavelarde/",
+            "icon": "fa fa-linkedin"
+        }
+    ]
+    }
+}
