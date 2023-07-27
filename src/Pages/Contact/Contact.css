@@ -1,11 +1,17 @@
 @import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
  
+.backgroundContact{
+  background-image: url("public/images/desktop-1920x1080.jpeg");
+  height: 100vh;
+  opacity: 0.7;
+}
+
 .contactContainer{
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 70vh;  
-  color: #ffffff;
+  min-height: 90vh;  
+  color: #000000;
   font-weight: 300;
 }
 .divContainer{
@@ -14,9 +20,9 @@
   justify-content: center;
 }
 .headerContact{
-  padding-left:150px ;
-  padding-right: 150px;
-  padding-top: 100px;
+  padding-left:160px ;
+  padding-right: 160px;
+  padding-top: 20px;
 }
 
 .titleContact{
@@ -27,18 +33,18 @@
   align-items: center;
   justify-content: center;
   min-height: 25vh;  
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 .titleContact{
-  color: #ffffff;
+  color: #000000;
   font-weight: 300;
   font-size: 30px;
 }
 
 .ulContainer{
    position: relative; 
-   padding: 20px;
+   padding: 10px;
    display: flex; 
    transform-style: preserve-3d;
 }
@@ -86,7 +92,7 @@ ul li span{
   color: #ffffff;
   font-size: 30px !important;
   transition: 1s ease-out; 
-  background-color:#b6b6b6; 
+  background-color:#626262; 
   border-radius: 40px;
 }
 .ilContainer:hover span {

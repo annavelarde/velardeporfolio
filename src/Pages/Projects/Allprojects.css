@@ -112,3 +112,35 @@ border-bottom-right-radius: 12px;
 .card:hover .card__info-hover {
     opacity: 1;
 }
+
+.projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.project {
+  width: calc(33.33% - 20px);
+  margin-bottom: 40px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.project img {
+  max-width: 100%;
+  border-radius: 5px;
+}
+
+.project:hover {
+  transform: translateY(-5px);
+}
+
+.mainText{
+  padding: 100px;
+  font-size: 18px;
+  color: rgb(157, 168, 178);
+}

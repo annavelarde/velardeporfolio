@@ -1,2 +1,83 @@
 
+  /* About.css */
+.container {
+    width: 500px;
+    height: 950px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
   
+  /* Styling for the timeline cards */
+  .rct-item-content {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .rct-card-subtitle {
+    color: #878787;
+  }
+  
+  .rct-card-detailed {
+    margin-top: 10px;
+  }
+  
+  /* Styling for the timeline dots and timeline line */
+  .rct-timeline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rct-timeline .rct-item {
+    margin: 0;
+  }
+  
+  .rct-line-vertical {
+    width: 3px;
+    background-color: #6e6d6d;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .rct-timeline.rct-timeline-alternating .rct-item:nth-child(odd) .rct-line-vertical {
+    background-color: #f0f0f0;
+  }
+  
+  /* Styling for the timeline date and title */
+  .rct-date {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .rct-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  /* Styling for the media (image) inside the timeline card */
+  .rct-image-content {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .rct-image-content img {
+    max-width: 100%;
+    max-height: 100px;
+    border-radius: 5px;
+  }
+  
+  /* Styling for the timeline mode "VERTICAL_ALTERNATING" */
+  .rct-timeline.rct-timeline-alternating .rct-item {
+    background-color: #464646;
+  }
+  
+  .rct-timeline.rct-timeline-alternating .rct-item:nth-child(even) {
+    background-color: #fff;
+  }

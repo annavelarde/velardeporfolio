@@ -1,0 +1,48 @@
+/* Home.css */
+.background{
+  background-image: url("public/images/wallpaperflare.com_wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+  .containerHome {
+    max-width: 650px;
+    margin: 0 auto;
+  }
+
+  .hero {
+    text-align: center;
+    padding: 130px 0;
+
+  }
+  
+  .hero h1 {
+    font-size: 48px;
+    margin-bottom: 35px;  
+  }
+  
+  .hero p {
+    font-size: 16px;
+    color: #b4b4b4;
+  } 
+
+  .view-projects-button {
+    display: inline-block;
+    background-color: #373737;
+    color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+    border-radius: 25px;
+    margin-top:35px;
+  }
+  
+  .view-projects-button:hover {
+    background-color: #555;
+    
+  }
