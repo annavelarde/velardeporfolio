@@ -2,13 +2,12 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
 .cards {
-    width: 200%;
+    width:100%;
     display: flex;
     display: -webkit-flex;
     justify-content: center;
     -webkit-justify-content: center;
-    max-width: 820px;
-    padding-top: 20;
+    max-width: 500px;
 }
 
 .card--1 .card__img, .card--1 .card__img--hover {
@@ -20,19 +19,18 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
+    width: 50%;
     height: 200px;
   border-top-left-radius: 10px;
 border-top-right-radius: 10px;
-
 }
 
 .card__info-hover {
     position: absolute;
     padding: 16px;
-  width: 100%;
-  opacity: 0;
-  top: 0;
+    width: 100%;
+    opacity: 0;
+    top: 0;
 }
 
 .card__img--hover {
@@ -40,23 +38,27 @@ border-top-right-radius: 10px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 100%;
-  position: absolute;
-    height: 325px;
-  border-top-left-radius: 12px;
-border-top-right-radius: 12px;
-top: 0;
+    width: 150%;
+    position: absolute;
+    height: 250px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    top: 0;
+    left: 0;
 
 }
+
 .card {
-  margin-right: 25px;
+  margin-right: 10px;
+  margin-left: 90px;
   transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
-  background-color: #fff;
-    width: 100%;
+  background-color: #d1d1d1;
+  /* width: 100%; */
   position: relative;
   border-radius: 12px;
   overflow: hidden;
   box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
+  padding: 40px;
 }
 .card:hover {
   box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
@@ -64,10 +66,12 @@ top: 0;
 }
 
 .card__info {
-z-index: 2;
+  z-index: 2;
   border-bottom-left-radius: 12px;
-border-bottom-right-radius: 12px;
-   padding: 16px 24px 24px 24px;
+  border-bottom-right-radius: 12px;
+   padding: 16px 24px 24px 24px;  
+   padding-top: 30px;
+
 }
 
 .card__category {
@@ -119,6 +123,8 @@ border-bottom-right-radius: 12px;
   justify-content: space-between;
 }
 
+/* SECOND TYPE OF CARDS */
+
 .project {
   width: calc(33.33% - 20px);
   margin-bottom: 40px;
@@ -140,7 +146,19 @@ border-bottom-right-radius: 12px;
 }
 
 .mainText{
-  padding: 100px;
-  font-size: 18px;
+  padding: 50px;
+  font-size: 15px;
   color: rgb(157, 168, 178);
+  font-weight: 150;
+}
+
+.titleProjects{
+  color: rgb(95, 95, 96);
+  font-weight: 150;
+}
+
+.containerProjects{
+  padding-left: 70px;
+  padding-right: 70px;
+  padding-top: 70px;
 }
