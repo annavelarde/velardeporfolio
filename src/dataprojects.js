@@ -1,4 +1,4 @@
-const dataProjects = [
+const projects = [
   {
     idProyecto: "1",
     title: "Clue Game",
@@ -31,4 +31,4 @@ const dataProjects = [
   },
 ];
 
-export default dataProjects;
+export default projects;
