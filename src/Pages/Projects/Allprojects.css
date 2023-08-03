@@ -11,7 +11,7 @@
 }
 
 .card--1 .card__img, .card--1 .card__img--hover {
-    background-image: url('/Users/ilev/ironhack/postbootcamp/velardeporfolio/velardeporfolio/public/images/wp6897369.jpg');
+    background-image: url('/src/assets/images/wp6897369.jpg');
 }
 
 .card__img {

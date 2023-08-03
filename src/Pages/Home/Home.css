@@ -1,6 +1,6 @@
 /* Home.css */
 .background{
-  background-image: url("public/images/wallpaperflare.com_wallpaper.jpg");
+  background-image: url("/src/assets/images/backgroundhomeimage.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
