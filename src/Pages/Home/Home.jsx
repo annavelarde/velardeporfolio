@@ -1,4 +1,5 @@
 import "./Home.css";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -32,6 +33,7 @@ const Home = () => {
           <a href="/projects" className="view-projects-button button button4">
             View Projects
           </a>
+          <Link to="/projects">Button</Link>
         </div>
       </div>
     </div>
