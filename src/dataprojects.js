@@ -4,20 +4,18 @@ const projects = [
     title: "Clue Game",
     description: "",
     leng: "",
-
     ownedBy: "",
     year: "",
-    image: "",
+    url: "./assets/images/contact.png",
   },
   {
     idProyecto: "2",
     title: "",
     description: "",
     leng: "",
-
     ownedBy: "",
     year: "",
-    image: "",
+    url: "",
   },
   {
     idProyecto: "3",
@@ -27,7 +25,7 @@ const projects = [
 
     ownedBy: "",
     year: "",
-    image: "",
+    url: "",
   },
 ];
 
