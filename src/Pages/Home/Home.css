@@ -1,8 +1,9 @@
 /* Home.css */
 .background{
-  background-image: url("/src/assets/images/backgroundhomeimage.jpg");
+  background-image: url("src/assets/images/glasses-near-laptop-reflect-light-from-screen-dark-copy-space_169016-14893.avif");
   background-repeat: no-repeat;
   background-size: cover;
+  /* opacity: 0.3; */
   background-position: center;
   height: 100vh;
 }
@@ -14,7 +15,7 @@
 
   .hero {
     text-align: center;
-    padding: 130px 0;
+    padding: 130px 60px;
 
   }
   
@@ -22,30 +23,28 @@
     font-size: 48px;
     margin-bottom: 35px; 
     font-weight: 300; 
-    color: #515151;
+    color: #d0d0d0;
   }
   
   .hero p {
-    font-size: 16px;
-    color: #b4b4b4;
+    font-size: 13px;
+    color: #8f8f8fc5;
   } 
 
   .view-projects-button {
     display: inline-block;
-    background-color: #575757;
-    color: #ffffff;
-    padding: 12px 20px;
+    background-color: #4f4e4e;
+    color: #d7d7d7;
+    padding: 8px 20px;
     border-radius: 5px;
     text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 13px;
     transition: background-color 0.3s ease-in-out;
     border-radius: 25px;
     margin-top:35px;
   }
   
   .view-projects-button:hover {
-    background-color: #979797;
+    background-color: #c6c5c5;
     opacity: 0.5;
-
-  }
+  } 

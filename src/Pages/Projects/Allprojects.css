@@ -23,8 +23,8 @@
     background-repeat: no-repeat;
     width: 50%;
     height: 200px;
-  border-top-left-radius: 10px;
-border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 
 .card__info-hover {

@@ -24,16 +24,18 @@ const Home = () => {
             in teams to deliver successful projects that exceed expectations. */}
             <br />
             <br />
-            <b>
+            <p>
               Thank you for visiting my portfolio. Please feel free to explore
               my projects and get in touch if you&apos;d like to work together
               on your next web development venture!
-            </b>
+            </p>
           </p>
-          <a href="/projects" className="view-projects-button button button4">
+          {/* <a href="/projects" className="view-projects-button button button4">
             View Projects
-          </a>
-          <Link to="/projects">Button</Link>
+          </a> */}
+          <Link to="/projects" className="view-projects-button button button4">
+            View Projects
+          </Link>
         </div>
       </div>
     </div>
