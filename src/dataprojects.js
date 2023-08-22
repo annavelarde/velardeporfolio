@@ -1,4 +1,4 @@
-import cluegamepic from "./assets/images/contact.png";
+// import cluegamepic from "./assets/images/contact.png";
 
 const projects = [
   {
@@ -8,7 +8,7 @@ const projects = [
     leng: "",
     ownedBy: "",
     year: "",
-    url: cluegamepic,
+    url: "",
   },
   {
     idProyecto: "2",

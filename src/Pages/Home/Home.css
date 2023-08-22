@@ -1,6 +1,7 @@
 /* Home.css */
 .background{
-  background-image: url("src/assets/images/glasses-near-laptop-reflect-light-from-screen-dark-copy-space_169016-14893.avif");
+  /* background-image: url("src/assets/images/glasses-near-laptop-reflect-light-from-screen-dark-copy-space_169016-14893.avif"); */
+  background-image: url("/homepage2.avif");
   background-repeat: no-repeat;
   background-size: cover;
   /* opacity: 0.3; */
