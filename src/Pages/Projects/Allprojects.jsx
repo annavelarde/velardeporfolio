@@ -1,6 +1,6 @@
 import "./Allprojects.css";
 import projects from "../../dataprojects";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 function Allprojects() {
   // console.log(dataProjects);
@@ -53,7 +53,7 @@ function Allprojects() {
               </a>
               <div className="card__info">
                 <span className="card__category"> {project.title}</span>
-                <h3 className="card__title">{project.description}</h3>
+                <h3 className="card__description">{project.description}</h3>
                 <span className="card__by">
                   <p className="card__author" title="author">
                     by {project.ownedBy}

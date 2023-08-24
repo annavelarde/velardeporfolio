@@ -1,4 +1,4 @@
-// import cluegamepic from "../public/contact.jpeg";
+import calathea from "../public/calathea.jpg";
 
 const projects = [
   {
@@ -40,11 +40,14 @@ const projects = [
   {
     idProyecto: "4",
     title: "Calathea App",
-    description: "",
+    description:
+      "Looking for a powerful back-end web application that's perfect for plant bloggers? - Project: Calathea - MEN WebApp. This app was built using Javascript, Express, NodeJS, and MongoDB. Offers robust CRUD operations for both blogs and users, all while utilizing the highly efficient MVC architecture. A sleek UI design that incorporates the Bootstrap framework and handlebars as a simple templating engine (front-end). The project is deployed on Render, ensuring maximum accessibility for users all around the world",
+    // Technologies: Javascript(ES6) · Express · NodeJS · MongoDB · Bootstrap · Cloudinary",
     leng: ["Javascript", "CSS", "HTML", "Handlebars", "MongoDB", "Cloudinary"],
     ownedBy: ["Juan Carlos Eugenio", "Anna Velarde"],
     year: "2022",
-    url: "https://img.freepik.com/fotos-gratis/close-up-de-uma-flor-roxa_181624-25863.jpg?t=st=1691680311~exp=1691680911~hmac=b955dc6be4ddb50fb5f6dee2866db2dc8b76f19f38b100a386bf8b73f3409c1e",
+    url: calathea,
+    link: "https://calathea-blog.onrender.com/",
   },
 ];
 
