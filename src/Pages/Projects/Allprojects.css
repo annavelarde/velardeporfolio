@@ -4,24 +4,22 @@
 
 .cards {
     width:100%;
+    height: auto;
     display: flex;
     display: -webkit-flex;
     justify-content: center;
-    -webkit-justify-content: center;
-    max-width: 500px;
+    flex-direction: row; 
+    /* border: 5px solid rgb(0, 0, 0); */
+    flex-wrap: wrap;
 }
-
-/* .card--1 .card__img, .card--1 .card__img--hover {
-    background-image: url('/src/assets/images/wp6897369.jpg');
-} */
 
 
 .card__img {
-  visibility: hidden;
+    visibility: hidden;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 50%;
+    width: 300px;
     height: 200px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -36,11 +34,11 @@
 }
 
 .card__img--hover {
-  transition: 0.2s all ease-out;
+    transition: 0.2s all ease-out;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    width: 150%;
+    width: 120%;
     position: absolute;
     height: 250px;
     border-top-left-radius: 12px;
@@ -51,20 +49,19 @@
 }
 
 .card {
-  margin-right: 10px;
-  margin-left: 90px;
   transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
   background-color: #d1d1d1;
-  /* width: 100%; */
   position: relative;
-  border-radius: 12px;
+  border-radius: 20px;
   overflow: hidden;
   box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
   padding: 40px;
+  margin-bottom: 80px;
+  margin-top: 70px;
 }
 
-.card:hover {
-  box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
+.cards:hover {
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
     transform: scale(1.10, 1.10);
 }
 
@@ -83,27 +80,26 @@
     font-size: 13px;
     letter-spacing: 2px;
     font-weight: 500;
-  color: #ffffff;
+    color: #ffffff;
 }
 
 .card__title {
-    margin-top: 5px;
-    margin-bottom: 10px;
-    font-family: 'Roboto Slab', serif;
+    margin-bottom: 20px;
+    font-family: 'Raleway', sans-serif;
     color: #ffffff;
-
 }
 
 .card__by {
     font-size: 12px;
     font-family: 'Raleway', sans-serif;
     font-weight: 500;
-    color: #c8c1bb;
+    color: #f7f7f6;
 }
+
 .card__author {
     font-weight: 300;
     text-decoration: none;
-    color: #c8c1bb;
+    color: #f0efee;
 }
 
 .card:hover .card__img--hover {
@@ -122,14 +118,14 @@
 
 
 .mainText{
-  padding: 50px;
+  padding: 60px;
   font-size: 15px;
-  color: rgb(157, 168, 178);
+  color: rgb(59, 61, 62);
   font-weight: 150;
 }
 
 .titleProjects{
-  color: rgb(95, 95, 96);
+  color: rgb(76, 75, 75);
   font-weight: 150;
 }
 
@@ -138,3 +134,8 @@
   padding-right: 70px;
   padding-top: 70px;
 }
+
+/* button.primary.ghost {
+	background-color: transparent;
+	color:  #96a88c;
+} */

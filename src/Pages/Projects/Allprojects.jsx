@@ -1,5 +1,6 @@
 import "./Allprojects.css";
 import projects from "../../dataprojects";
+import { Link } from "react-router-dom";
 
 function Allprojects() {
   // console.log(dataProjects);
@@ -54,10 +55,12 @@ function Allprojects() {
                 <span className="card__category"> {project.title}</span>
                 <h3 className="card__title">{project.description}</h3>
                 <span className="card__by">
-                  by{" "}
-                  <a href="#" className="card__author" title="author">
-                    Anna Velarde
-                  </a>
+                  <p className="card__author" title="author">
+                    by {project.ownedBy}
+                  </p>
+                  {/* <Link to="#" className="view-projects-button button button4">
+                    View Project
+                  </Link> */}
                 </span>
               </div>
             </article>
