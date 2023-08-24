@@ -13,7 +13,6 @@
     align-items: center;
 }
 
-
 .card__img {
     visibility: hidden;
     background-size: cover;
@@ -56,7 +55,7 @@
   box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
   padding: 50px;
   margin-bottom: 80px;
-  margin-top: 80px;
+  margin-top: 20px;
   margin-left: 250px;
   margin-right: 250px;
 }
@@ -67,28 +66,28 @@
 }
 
 .card__info {
-   z-index: 2;
+   z-index: 3;
    border-bottom-left-radius: 12px;
    border-bottom-right-radius: 12px;
-   padding: 16px 24px 24px 24px;  
-   padding-top: 20px;
+   padding-top: 50px;
 }
 
 .card__category {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
-    font-size: 18px;
-    letter-spacing: 2px;
+    font-size: 20px;
+    letter-spacing: 15px;
     font-weight: 300;
     color: #ffffff;
-    padding-bottom: 10px;
+    padding: 10px;
 }
 
 .card__description {
     margin-bottom: 20px;
     font-family: 'Raleway', sans-serif;
     color: #ffffff;
-    font-size: 10px;
+    font-size: 12px;
+    font-weight: 300;
 }
 
 .card__by {
@@ -106,7 +105,7 @@
 
 .card:hover .card__img--hover {
     height: 100%;
-    opacity: 0.15;
+    opacity: 0.07;
 }
 
 .card:hover .card__info {

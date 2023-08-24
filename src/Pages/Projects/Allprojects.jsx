@@ -44,7 +44,7 @@ function Allprojects() {
                 <div className="card__img--hover"></div>
               </a> */}
               <div className="card__img">
-                <img src={project.url} alt={project.title} />
+                <img src={project.link} alt={project.title} />
               </div>
               <a href="#" className="card_link">
                 <div className="card__img--hover">
@@ -52,7 +52,7 @@ function Allprojects() {
                 </div>
               </a>
               <div className="card__info">
-                <span className="card__category"> {project.title}</span>
+                <p className="card__category"> {project.title}</p>
                 <h3 className="card__description">{project.description}</h3>
                 <span className="card__by">
                   <p className="card__author" title="author">
