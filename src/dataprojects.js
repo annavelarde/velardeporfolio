@@ -1,15 +1,16 @@
 import calathea from "/calathea.jpg";
+import cluegame from "/cluegame.png";
 
 const projects = [
   {
     idProyecto: "1",
-    title: "Clue Game",
-    description: "",
-    leng: ["Javascript", "CSS", "HTML"],
+    title: "Clue Game 🔎",
+    description:
+      "Using only Vanilla Javascript and CSS to manipulate the Document Object Model (DOM), we've created an exciting new game. It's a game of chance that involves selecting a murderer, weapon, and location in order to solve a murder mystery. This project is sure to provide hours of entertainment for players of all ages. Deployed on the powerful Netlify platform and it has a responsive design.",
+    leng: ["Javascript (ES6)", "CSS", "HTML5"],
     ownedBy: "Anna Velarde",
     year: "2023",
-    // url: cluegamepic,
-    url: "https://img.freepik.com/fotos-gratis/close-up-de-uma-flor-roxa_181624-25863.jpg?t=st=1691680311~exp=1691680911~hmac=b955dc6be4ddb50fb5f6dee2866db2dc8b76f19f38b100a386bf8b73f3409c1e",
+    url: cluegame,
   },
   {
     idProyecto: "2",
