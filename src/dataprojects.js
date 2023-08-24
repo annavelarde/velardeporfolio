@@ -1,4 +1,4 @@
-import calathea from "../public/calathea.jpg";
+import calathea from "/calathea.jpg";
 
 const projects = [
   {
