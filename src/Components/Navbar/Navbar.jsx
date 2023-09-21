@@ -22,10 +22,12 @@ function Navbar() {
             <Link to="/about">About </Link>
           </li>
           <li className="liNavbar">
-            <a href="/projects">Projects</a>
+            {/* <a href="/projects">Projects</a> */}
+            <Link to="/projects">Projects </Link>
           </li>
           <li className="liNavbar">
-            <a href="/contact">Contact</a>
+            {/* <a href="/contact">Contact</a> */}
+            <Link to="/contact">Contact </Link>
           </li>
         </ul>
       </div>
