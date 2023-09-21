@@ -17,7 +17,7 @@ const projects = [
   },
   {
     idProyecto: "2",
-    title: "Plant weblog - MERN WebApp 🌿",
+    title: "Plant weblog - MERN WebApp🌿",
     description:
       "This application utilizes the cutting-edge technologies of MongoDB, Express, ReactJS and NodeJS (MERN), giving you unparalleled performance and flexibility. With comprehensive CRUD operations available, you'll have full control over your data. Plus, our MVC and ReactJS data management tools make it easy to keep your application running smoothly.",
     leng: [
