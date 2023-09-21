@@ -11,9 +11,9 @@ function Navbar() {
       <label htmlFor="active" className="close"></label>
       <div className="wrapper">
         <ul className="ulNavbar">
-          <li>
+          <li className="ilNavbar">
             {/* <a href="/">Home</a> */}
-            <Link to="/" className="liNavbar">
+            <Link to="/" className="linkNavbar">
               Home
             </Link>
           </li>
