@@ -1,28 +1,28 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700');
 @import url('https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 
+/* .cards {
+    border: 5px solid rgb(7, 177, 140);
+} */
 
-.cards {
-    width:100%;
+.projects{
+    /* border: 5px solid rgb(187, 19, 19); */
+    margin-top: 80px;
     display: flex;
-    display: -webkit-flex;
-    justify-content: center;
-    flex-direction: row; 
-    /* border: 5px solid rgb(0, 0, 0); */
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 
-.card__img {
-    visibility: hidden;
+
+.card__img  {
+    visibility: hidden; 
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    /* width: 50px;
-    height: 70px; */
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    background-repeat: no-repeat; 
 }
+
 
 .card__info-hover {
     position: absolute;
@@ -30,53 +30,65 @@
     width: 100%;
     opacity: 0;
     top: 0;
+    border: 15px solid rgb(212, 196, 212);
 }
 
-.card__img--hover {
+.sizeImage{
+    /* border: 15px solid rgb(162, 41, 162); */
+    width: 320px;
+}
+
+.card__img--hoverh{
     transition: 0.2s all ease-out;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     width: 30px;
     position: absolute;
-    height: 30px;
+    height: 40px;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
     top: 0;
     left: 0;
+    object-fit: fill;
+}
+.containerCard{
+    padding: 10px;
+    /* border: 5px solid rgb(218, 145, 20); */
 }
 
 .card {
   transition: all .4s cubic-bezier(0.175, 0.885, 0, 1);
-  background-color: #d1d1d1;
+  background-color: #a8a2b5;
   position: relative;
   border-radius: 20px;
   overflow: hidden;
   box-shadow: 0px 13px 10px -7px rgba(0, 0, 0,0.1);
-  padding: 100px;
-  margin-bottom: 80px;
-  margin-top: 20px;
-  margin-left: 450px;
-  margin-right: 450px;
+  margin: 20px;
+  padding: 20px;
+  /* border: 5px solid rgb(85, 187, 54); */
+  width: 400px;
 }
 
 .cards:hover {
     box-shadow: 0px 30px 18px -8px rgba(0, 0, 0,0.1);
-    /* transform: scale(1.0, 1.00); */
+    transform: scale(1.0, 1.00);
 }
 
 .card__info {
    z-index: 3;
    border-bottom-left-radius: 12px;
    border-bottom-right-radius: 12px;
-   padding-top: 50px;
+   /* border: 5px solid rgb(106, 65, 99); */
+   padding: 20px;
+
 }
 
 .card__category {
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     font-size: 20px;
-    letter-spacing: 15px;
+    letter-spacing: 10px;
     font-weight: 300;
     color: #ffffff;
     padding: 10px;
@@ -88,6 +100,9 @@
     color: #ffffff;
     font-size: 12px;
     font-weight: 300;
+    /* border: 5px solid rgb(24, 42, 19); */
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
 .card__by {
@@ -104,7 +119,7 @@
 }
 
 .card:hover .card__img--hover {
-    height: 100%;
+    height: 30%;
     opacity: 0.07;
 }
 
@@ -114,7 +129,7 @@
 }
 
 .card:hover .card__info-hover {
-    opacity: 1;
+    opacity: 0.5;
 }
 
 
