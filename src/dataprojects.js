@@ -17,7 +17,7 @@ const projects = [
   },
   {
     idProyecto: "2",
-    title: "Plant weblog - MERN WebApp🌿",
+    title: "Plant weblog-🌿",
     description:
       "This application utilizes the cutting-edge technologies of MongoDB, Express, ReactJS and NodeJS (MERN), giving you unparalleled performance and flexibility. With comprehensive CRUD operations available, you'll have full control over your data. Plus, our MVC and ReactJS data management tools make it easy to keep your application running smoothly.",
     leng: [
@@ -49,7 +49,7 @@ const projects = [
     idProyecto: "4",
     title: "Calathea App",
     description:
-      "Looking for a powerful back-end web application that's perfect for plant bloggers? - Project: Calathea - MEN WebApp. This app was built using Javascript, Express, NodeJS, and MongoDB. Offers robust CRUD operations for both blogs and users, all while utilizing the highly efficient MVC architecture. A sleek UI design that incorporates the Bootstrap framework and handlebars as a simple templating engine (front-end).",
+      "Looking for a powerful back-end web application that's perfect for plant bloggers? - Project: Calathea - MERN WebApp. This app was built using Javascript, Express, NodeJS, and MongoDB. Offers robust CRUD operations for both blogs and users, all while utilizing the highly efficient MVC architecture. A sleek UI design that incorporates the Bootstrap framework and handlebars as a simple templating engine (front-end).",
     // Technologies: Javascript(ES6) · Express · NodeJS · MongoDB · Bootstrap · Cloudinary",
     leng: ["Javascript", "CSS", "HTML", "Handlebars", "MongoDB", "Cloudinary"],
     ownedBy: ["Juan Carlos Eugenio", " & ", "Anna Velarde"],
