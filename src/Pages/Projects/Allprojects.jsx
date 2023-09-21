@@ -26,36 +26,34 @@ function Allprojects() {
       <section className="cards">
         <div className="projects">
           {projects.map((project) => (
-            <article className="card" key={project.idProyecto}>
-              <div className="card__img">
+            <article className="card card--1" key={project.idProyecto}>
+              {/* <div className="card__imginfo">
                 <img src={project.link} alt={project.title} />
-              </div>{" "}
-              <div className="containerCard">
-                <a href="#" className="card_link">
-                  <div className="card__img--hover"> </div>
-                </a>
-                <a href="#" className="card_link">
-                  <div className="card__img--hover">
-                    <img
-                      className="sizeImage"
-                      src={project.url}
-                      alt={project.title}
-                    />
-                  </div>
-                </a>
-                <div className="card__info">
-                  <p className="card__category"> {project.title}</p>
-                  <h3 className="card__description">{project.description}</h3>
-                  <span className="card__by">
-                    <p className="card__author" title="author">
-                      by {project.ownedBy}
-                    </p>
-                    {/* <Link to="#" className="view-projects-button button button4">
+              </div>{" "} */}
+              {/* <div className="containerCard"> */}
+              {/* //IMAGE */}
+              <a href={project.link} className="card_link">
+                <div className="card__img--hover">
+                  <img
+                    className="sizeImage"
+                    src={project.url}
+                    alt={project.title}
+                  />
+                </div>
+              </a>
+              <div className="card__info">
+                <p className="card__category"> {project.title}</p>
+                <h3 className="card__description">{project.description}</h3>
+                <span className="card__by">
+                  <p className="card__author" title="author">
+                    by {project.ownedBy}
+                  </p>
+                  {/* <Link to="#" className="view-projects-button button button4">
                     View Project
                   </Link> */}
-                  </span>
-                </div>
+                </span>
               </div>
+              {/* </div> */}
             </article>
           ))}
         </div>
