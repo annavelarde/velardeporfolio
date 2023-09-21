@@ -2,16 +2,19 @@
 .background{
   /* background-image: url("src/assets/images/glasses-near-laptop-reflect-light-from-screen-dark-copy-space_169016-14893.avif"); */
   background-image: url("/homepage2.avif");
-  background-size: cover;
   background-repeat: no-repeat;
+  background-size: cover;
+  /* opacity: 0.3; */
   background-attachment: fixed;
   min-height: 100vh;
-  width: 100vb;
+  min-width: 100vb;
 }
 
   .containerHome {
     max-width: 950px;
     margin: 0 auto;
+    padding: 20px;
+
   }
 
   .hero {
