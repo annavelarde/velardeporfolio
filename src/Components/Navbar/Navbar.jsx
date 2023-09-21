@@ -1,7 +1,14 @@
 import "./Navbar.css";
 import { Link } from "react-router-dom";
+// import { useState } from "react"; // Import useState from React
 
 function Navbar() {
+  // const [menuOpen, setMenuOpen] = useState(false);
+
+  // const toggleMenu = () => {
+  //   setMenuOpen(!menuOpen);
+  // };
+
   return (
     <div>
       <input type="checkbox" id="active" />
@@ -10,24 +17,27 @@ function Navbar() {
       </label>
       <label htmlFor="active" className="close"></label>
       <div className="wrapper">
-        <ul className="ulNavbar">
+        <ul>
           <li className="ilNavbar">
-            {/* <a href="/">Home</a> */}
+            {/* Add onClick handler to close navbar when link is clicked */}
             <Link to="/" className="linkNavbar">
               Home
             </Link>
           </li>
           <li className="liNavbar">
-            {/* <a href="/about">About</a> */}
-            <Link to="/about">About </Link>
+            <Link to="/about" className="linkNavbar">
+              About
+            </Link>
           </li>
           <li className="liNavbar">
-            {/* <a href="/projects">Projects</a> */}
-            <Link to="/projects">Projects </Link>
+            <Link to="/projects" className="linkNavbar">
+              Projects
+            </Link>
           </li>
           <li className="liNavbar">
-            {/* <a href="/contact">Contact</a> */}
-            <Link to="/contact">Contact </Link>
+            <Link to="/contact" className="linkNavbar">
+              Contact
+            </Link>
           </li>
         </ul>
       </div>

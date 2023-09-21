@@ -16,7 +16,8 @@
 .containerElements{
   margin-left: 20px;
   margin-right: 20px;
-    /* border: 5px solid rgb(85, 187, 54); */
+  margin-top: 20px;
+  /* border: 5px solid rgb(85, 187, 54); */
 }
 
 .contactContainer{
@@ -49,7 +50,7 @@
   font-size: 30px;
   /* border: 5px solid rgb(16, 227, 171); */
   padding-bottom: 20px;
-  padding-top: 90px;
+  padding-top: 70px;
 }
 .individualLi{
   display: flex;
