@@ -17,6 +17,7 @@
 
 .projects img {
     max-width: 100%;
+    max-height: 350px;
   }
   
 
@@ -135,21 +136,22 @@ transform: scale(1.05, 1.05);}
 
 .mainText{
   margin-top: 40px;
-  padding: 5px;
   font-size: 15px;
-  color: rgb(59, 61, 62);
+  color: rgb(135, 140, 143);
   font-weight: 150;
+  /* border: 5px solid rgb(24, 42, 19); */
 }
 
 .titleProjects{
   color: rgb(76, 75, 75);
   font-weight: 150;
+
 }
 
 .containerProjects{
-  padding-left: 70px;
-  padding-right: 70px;
   padding-top: 80px;
+  padding-left: 85px;
+  padding-right: 85px;
 }
 
 button.primary.ghost {
