@@ -67,7 +67,7 @@
   /* padding: 5px; */
   /* border: 5px solid rgb(85, 187, 54); */
   max-width: 400px;
-  height: 480px;
+  height: 500px;
   /* display:flex; */
 
 
@@ -89,7 +89,7 @@ transform: scale(1.05, 1.05);}
     font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     font-size: 20px;
-    letter-spacing: 15px;
+    letter-spacing: 10px;
     font-weight: 300;
     color: #ffffff;
     padding: 10px;
@@ -137,7 +137,7 @@ transform: scale(1.05, 1.05);}
 .mainText{
   margin-top: 40px;
   font-size: 15px;
-  color: rgb(135, 140, 143);
+  color: rgb(101, 106, 109);
   font-weight: 150;
   /* border: 5px solid rgb(24, 42, 19); */
 }
