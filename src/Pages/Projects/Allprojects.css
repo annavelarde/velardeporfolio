@@ -153,8 +153,3 @@ opacity: 0.6;
   padding-left: 85px;
   padding-right: 85px;
 }
-
-button.primary.ghost {
-	background-color: transparent;
-	color:  #96a88c;
-}

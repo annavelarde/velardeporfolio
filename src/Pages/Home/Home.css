@@ -5,16 +5,13 @@
   background-repeat: no-repeat;
   background-size: cover;
   /* opacity: 0.3; */
-  background-attachment: fixed;
-  min-height: 100vh;
-  min-width: 100vb;
+  background-position: center;
+  height: 100vh;
 }
 
   .containerHome {
     max-width: 950px;
     margin: 0 auto;
-    padding: 20px;
-
   }
 
   .hero {
