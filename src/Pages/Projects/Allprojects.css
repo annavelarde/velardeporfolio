@@ -69,12 +69,12 @@
   max-width: 400px;
   height: 500px;
   /* display:flex; */
-
-
 }
 
-.card:hover{  box-shadow: 5px 5px 50px 5px rgba(0, 0, 0,0.1);
-transform: scale(1.05, 1.05);}
+.card:hover{  
+transform: scale(1.05, 1.05);
+opacity: 0.6;
+}
 
 
 .card__info {
