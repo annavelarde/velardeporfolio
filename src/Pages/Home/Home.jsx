@@ -24,11 +24,9 @@ const Home = () => {
             in teams to deliver successful projects that exceed expectations. */}
             <br />
             <br />
-            <p>
-              Thank you for visiting my portfolio. Please feel free to explore
-              my projects and get in touch if you&apos;d like to work together
-              on your next web development venture!
-            </p>
+            Thank you for visiting my portfolio. Please feel free to explore my
+            projects and get in touch if you&apos;d like to work together on
+            your next web development venture!
           </p>
           {/* <a href="/projects" className="view-projects-button button button4">
             View Projects

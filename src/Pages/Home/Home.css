@@ -14,18 +14,18 @@
 
   .hero {
     text-align: center;
-    padding: 130px 60px;
+    padding: 100px 50px;
   }
   
   .hero h1 {
     font-size: 48px;
-    margin-bottom: 35px; 
+    margin-bottom: 30px; 
     font-weight: 300; 
     color: #d0d0d0;
   }
   
   .hero p {
-    font-size: 13px;
+    font-size: 12px;
     color: #8f8f8fc5;
   } 
 
