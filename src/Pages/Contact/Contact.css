@@ -16,7 +16,7 @@
 .containerElements{
   margin-left: 20px;
   margin-right: 20px;
-  margin-top: 20px;
+  margin-top: 50px;
   /* border: 5px solid rgb(85, 187, 54); */
 }
 
@@ -41,6 +41,7 @@
 
 .headerContact{
   padding: 30px;
+  padding-top: 40px;
   /* border: 5px solid rgb(169, 121, 105); */
 }
 
@@ -49,7 +50,7 @@
   font-weight: 300;
   font-size: 30px;
   /* border: 5px solid rgb(16, 227, 171); */
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   padding-top: 70px;
 }
 .individualLi{
@@ -145,4 +146,7 @@ ul li span{
   /* border: 5px solid rgb(105, 169, 118); */
   padding-left: 10px;
   padding-right: 10px;
+  color: #161515;
+  font-weight: 200;
+  padding-bottom: 30px;
 }

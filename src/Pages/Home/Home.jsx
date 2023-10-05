@@ -1,7 +1,7 @@
 import "./Home.css";
 import { Link } from "react-router-dom";
 import ReactTyped from "react-typed";
-import { TypeAnimation } from "react-type-animation";
+// import { TypeAnimation } from "react-type-animation";
 
 const Home = () => {
   return (
@@ -20,7 +20,7 @@ const Home = () => {
             />
           </h1>
           <h2>Welcome to Anna&apos;s Portfolio.</h2>
-          {/* <p>
+          <p>
             I&apos;m a passionate web developer with a love for creating
             beautiful and functional websites. With a strong foundation in HTML,
             CSS, and JavaScript, I enjoy bringing creative ideas to life through
@@ -32,8 +32,8 @@ const Home = () => {
             Thank you for visiting my portfolio. Please feel free to explore my
             projects and get in touch if you&apos;d like to work together on
             your next web development venture!
-          </p> */}
-          <p>
+          </p>
+          {/* <p>
             <TypeAnimation
               sequence={[
                 `I'm a passionate web developer with a love for creating beautiful and functional websites. With a strong foundation in HTML, CSS, and JavaScript, I enjoy bringing creative ideas to life through code. Whether it's crafting intuitive user interfaces or solving complex programming challenges, I'm driven by a desire to deliver exceptional web experiences. Bring ideas to live!\n\nThank you for visiting my portfolio. Please feel free to explore my projects and get in touch if you'd like to work together on your next web development venture!`,
@@ -42,7 +42,7 @@ const Home = () => {
               style={{ whiteSpace: "pre-line", fontSize: "1.1em" }}
               repeat={true}
             />
-          </p>
+          </p> */}
           <Link to="/projects" className="view-projects-button button button4">
             View Projects
           </Link>

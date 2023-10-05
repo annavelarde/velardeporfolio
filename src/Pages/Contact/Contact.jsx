@@ -1,5 +1,6 @@
 import "./Contact.css";
 import data from "../../data.json";
+import ReactTyped from "react-typed";
 
 function Contact() {
   // console.log(data);
@@ -8,7 +9,20 @@ function Contact() {
     <div className="backgroundContact">
       <div className="containerElements">
         <div className="headerContact">
-          <h1 className="titleContact">Get in touch</h1>
+          <h1 className="titleContact">
+            Contact Us. {""}
+            <ReactTyped
+              strings={[
+                "Have any questions?",
+                "We would love to hear from you!",
+              ]}
+              typeSpeed={100}
+              loop
+              backSpeed={20}
+              cursorChar="|"
+              showCursor={true}
+            />
+          </h1>
           <p className="pContact">
             Am if number no up period regard sudden better. Decisively
             surrounded all admiration and not you. Out particular sympathize not
