@@ -1,14 +1,32 @@
 import "./Allprojects.css";
 import projects from "../../dataprojects";
-// import { Link } from "react-router-dom";
+import ReactTyped from "react-typed";
+// import { TypeAnimation } from "react-type-animation";
 
 function Allprojects() {
-  // console.log(dataProjects);
-
   return (
     <div>
       <div className="containerProjects">
-        <h1 className="titleProjects">Check out my projects </h1>
+        <h1 className="titleProjects">
+          {/* <TypeAnimation
+            sequence={[`Check out my projects.`]}
+            speed={60}
+            style={{ whiteSpace: "pre-line", fontSize: "1.4em" }}
+            repeat={true}
+          /> */}
+          Check out{" "}
+          <ReactTyped
+            strings={[
+              "my projects below. I hope you like them!",
+              "Take a peek at my portfolio.",
+            ]}
+            typeSpeed={100}
+            loop
+            backSpeed={20}
+            cursorChar="|"
+            showCursor={true}
+          />
+        </h1>
         <p className="mainText">
           As a dedicated <b>web developer</b> specializing in creating MERN
           (MongoDB, Express.js, React, Node.js) applications, my passion lies in
@@ -27,11 +45,6 @@ function Allprojects() {
         <div className="projects">
           {projects.map((project) => (
             <article className="card card--1" key={project.idProyecto}>
-              {/* <div className="card__imginfo">
-                <img src={project.link} alt={project.title} />
-              </div>{" "} */}
-              {/* <div className="containerCard"> */}
-              {/* //IMAGE */}
               <a href={project.link} className="card_link">
                 <div className="card__img--hover">
                   <img
@@ -48,12 +61,8 @@ function Allprojects() {
                   <p className="card__author" title="author">
                     by {project.ownedBy}
                   </p>
-                  {/* <Link to="#" className="view-projects-button button button4">
-                    View Project
-                  </Link> */}
                 </span>
               </div>
-              {/* </div> */}
             </article>
           ))}
         </div>
