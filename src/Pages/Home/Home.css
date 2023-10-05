@@ -9,6 +9,7 @@
   min-height: 100%;
 }
 
+
   .containerHome {
     max-width: 950px;
     margin: 0 auto;
@@ -16,14 +17,13 @@
 
   .hero {
     text-align: center;
-    padding: 130px 100px;
+    padding: 90px 90px;
   }
   
   .hero h1 {
     font-size: 50px;
     font-weight: 300;
     color: #569b85; 
-
   }
   
   .hero h2 {
