@@ -38,7 +38,7 @@ const Home = () => {
               sequence={[
                 `I'm a passionate web developer with a love for creating beautiful and functional websites. With a strong foundation in HTML, CSS, and JavaScript, I enjoy bringing creative ideas to life through code. Whether it's crafting intuitive user interfaces or solving complex programming challenges, I'm driven by a desire to deliver exceptional web experiences. Bring ideas to live!\n\nThank you for visiting my portfolio. Please feel free to explore my projects and get in touch if you'd like to work together on your next web development venture!`,
               ]}
-              speed={60}
+              speed={110}
               style={{ whiteSpace: "pre-line", fontSize: "1.1em" }}
               repeat={true}
             />

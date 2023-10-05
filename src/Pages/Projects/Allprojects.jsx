@@ -14,11 +14,12 @@ function Allprojects() {
             style={{ whiteSpace: "pre-line", fontSize: "1.4em" }}
             repeat={true}
           /> */}
-          Check out{" "}
+          {""}
           <ReactTyped
             strings={[
-              "my projects below. I hope you like them!",
               "Take a peek at my portfolio.",
+              "Hope it interests you.",
+              "I'd love your feedback!",
             ]}
             typeSpeed={100}
             loop

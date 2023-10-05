@@ -137,13 +137,16 @@ opacity: 0.6;
   font-size: 15px;
   color: rgb(101, 106, 109);
   font-weight: 150;
+  padding-bottom: 40px;;
   /* border: 5px solid rgb(24, 42, 19); */
 }
 
 .titleProjects{
   color: rgb(76, 75, 75);
   font-weight: 150;
-
+  font-size: 45px;
+  padding-top: 40px;
+  padding-bottom: 40px;;
 }
 
 .containerProjects{
