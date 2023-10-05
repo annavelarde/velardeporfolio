@@ -15,7 +15,7 @@
 
   .hero {
     text-align: center;
-    padding: 50px 50px;
+    padding: 40px 40px;
     display: flex;
     position:relative;
     justify-content: center;
@@ -30,14 +30,16 @@
     font-weight: 300;
     color: #569b85; 
     margin-bottom: 10px;
-    padding-top: 50px;
+    padding-top: 80px;
   }
   
   .hero h2 {
     font-size: 30px;
     margin-bottom: 30px;
     font-weight: 300;
-    color: #e4e4e4; 
+    color: #e4e4e4;
+    padding-top: 40px;
+
   }
   
   .hero p {
@@ -47,8 +49,8 @@
   } 
 
   .description{
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
     padding-top:20px;
   }
 
