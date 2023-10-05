@@ -1,4 +1,4 @@
-
+/* 
   /* About.css */
 .container {
     width: 500px;
@@ -10,15 +10,11 @@
   
   /* Styling for the timeline cards */
   .rct-item-content {
-    background-color: #f0f0f0;
     padding: 15px;
     border-radius: 5px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   }
-  
-  .rct-card-subtitle {
-    color: #878787;
-  }
+
   
   .rct-card-detailed {
     margin-top: 10px;
@@ -81,3 +77,5 @@
   .rct-timeline.rct-timeline-alternating .rct-item:nth-child(even) {
     background-color: #fff;
   }
+
+  
