@@ -1,34 +1,41 @@
-.background{
+.backgroundHome{
   background-image: url("/homepage2.avif");
   background-size: cover;
   background-repeat: no-repeat;
-  position: fixed;
+  position:absolute;
   top: 0;
   left: 0;
   min-width: 100%;
   min-height: 100%;
 }
 
-
   .containerHome {
-    max-width: 950px;
-    margin: 0 auto;
+    margin: 20px;
   }
 
   .hero {
     text-align: center;
-    padding: 90px 90px;
+    padding: 40px 40px;
+    display: flex;
+    position:relative;
+    justify-content: center;
+    flex-direction:column; 
+    flex-wrap: wrap;
+    margin: 10px;
   }
-  
+
+
   .hero h1 {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: 300;
     color: #569b85; 
+    margin-bottom: 10px;
+    padding-top: 30px;
   }
   
   .hero h2 {
     font-size: 30px;
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     font-weight: 300;
     color: #e4e4e4; 
   }
@@ -39,6 +46,15 @@
     font-weight: 300;
   } 
 
+  .description{
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-top:20px;
+  }
+
+  .buttonContainer{
+    padding: auto;
+  }
 
   .view-projects-button {
     display: inline-block;

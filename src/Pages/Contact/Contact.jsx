@@ -14,7 +14,7 @@ function Contact() {
             <ReactTyped
               strings={[
                 "Have any questions?",
-                "We would love to hear from you!",
+                "I would love to hear from you.",
               ]}
               typeSpeed={100}
               loop
