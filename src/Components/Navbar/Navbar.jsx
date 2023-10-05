@@ -1,41 +1,44 @@
 import "./Navbar.css";
 import { Link } from "react-router-dom";
-// import { useState } from "react"; // Import useState from React
+import { useState } from "react";
 
 function Navbar() {
-  // const [menuOpen, setMenuOpen] = useState(false);
+  const [menuOpen, setMenuOpen] = useState(false);
 
-  // const toggleMenu = () => {
-  //   setMenuOpen(!menuOpen);
-  // };
+  const toggleMenu = () => {
+    setMenuOpen(!menuOpen);
+  };
+
+  const closeMenu = () => {
+    setMenuOpen(false);
+  };
 
   return (
     <div>
-      <input type="checkbox" id="active" />
-      <label htmlFor="active" className="menu-btn">
+      <input type="checkbox" id="active" checked={menuOpen} />
+      <label htmlFor="active" className="menu-btn" onClick={toggleMenu}>
         <span></span>
       </label>
-      <label htmlFor="active" className="close"></label>
-      <div className="wrapper">
+      <label htmlFor="active" className="close" onClick={closeMenu}></label>
+      <div className={`wrapper ${menuOpen ? "open" : ""}`}>
         <ul>
-          <li className="ilNavbar">
-            {/* Add onClick handler to close navbar when link is clicked */}
-            <Link to="/" className="linkNavbar">
+          <li className="navbar-item" onClick={closeMenu}>
+            <Link to="/" className="navbar-link">
               Home
             </Link>
           </li>
-          <li className="liNavbar">
-            <Link to="/about" className="linkNavbar">
+          <li className="navbar-item" onClick={closeMenu}>
+            <Link to="/about" className="navbar-link">
               About
             </Link>
           </li>
-          <li className="liNavbar">
-            <Link to="/projects" className="linkNavbar">
+          <li className="navbar-item">
+            <Link to="/projects" className="navbar-link" onClick={closeMenu}>
               Projects
             </Link>
           </li>
-          <li className="liNavbar">
-            <Link to="/contact" className="linkNavbar">
+          <li className="navbar-item" onClick={closeMenu}>
+            <Link to="/contact" className="navbar-link">
               Contact
             </Link>
           </li>
