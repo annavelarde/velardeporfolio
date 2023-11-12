@@ -34,70 +34,72 @@ function About() {
   return (
     <div className="aboutContainer">
       <div className="sectionsContainer">
-        <div>
+        <div className="sectionAbout">
           <img
             src="https://media.licdn.com/dms/image/D4E03AQFqsiryuS_u3A/profile-displayphoto-shrink_800_800/0/1680116012895?e=2147483647&v=beta&t=5b9tetwm3YOVOuO50o-FvIzE-MjIFztYfa2YPwYsl0g"
             alt=""
-            style={{ width: "100px", height: "100px" }}
+            style={{ width: "250px", height: "250px" }}
           />
-          <h1>About.</h1>
-          <h3>
-            MERN Full Stack Developer - Javascript (ES6), MongoDB, Express,
-            React, NodeJS, HTML & CSS
-          </h3>
-          <p>
-            As a full-stack web developer, I am passionate about creating
-            engaging and responsive websites that enhance user experiences. I
-            thrive on the challenge of problem-solving and love working with
-            code to find solutions that exceed client expectations. My strong
-            technical skills and ability to quickly adapt to new technologies
-            enable me to approach projects efficiently and effectively.
-          </p>
+          <div className="sectionAboutInfo">
+            <h1>About.</h1>
+            <h3>
+              MERN Full Stack Developer - Javascript (ES6), MongoDB, Express,
+              React, NodeJS, HTML & CSS
+            </h3>
+            <p>
+              As a full-stack web developer, I am passionate about creating
+              engaging and responsive websites that enhance user experiences. I
+              thrive on the challenge of problem-solving and love working with
+              code to find solutions that exceed client expectations. My strong
+              technical skills and ability to quickly adapt to new technologies
+              enable me to approach projects efficiently and effectively.
+            </p>
+          </div>
         </div>
-      </div>
-      <div>
-        <h2>Experience.</h2>{" "}
-        <div style={{ width: "500px", height: "1950px" }}>
-          <Chrono
-            items={items}
-            mode="VERTICAL_ALTERNATING"
-            mediaSettings={{ align: "center", fit: "contain" }}
-            enableBreakPoint
-            theme={{
-              primary: "teal",
-              secondary: "transparent",
-              cardBgColor: "transparent",
-              cardBgColorActive: "black",
-              titleColor: "black",
-              titleColorActive: "lightpink",
-              cardDetailedTextColor: "black",
-              cardDetailedTextColorActive: "teal",
-              cardTitleColor: "teal",
-              cardTitle: "teal",
-              cardTitleColorActive: "lightpink",
-            }}
-            fontSizes={{
-              cardSubtitle: "0.85rem",
-              cardText: "0.8rem",
-              cardTitle: "1.2rem",
-              title: "1.1rem",
-            }}
-            buttonTexts={{
-              first: "Jump to First",
-              last: "Jump to Last",
-              next: "Next",
-              previous: "Previous",
-            }}
-            classNames={{
-              card: "my-card",
-              cardMedia: "my-card-media",
-              cardSubTitle: "my-card-subtitle",
-              cardText: "my-card-text",
-              cardTitle: "my-card-title",
-              controls: "my-controls",
-              title: "my-title",
-            }}
-          />
+        <div className="experienceInfo">
+          <h1>Experience.</h1>
+          <div style={{ width: "500px", height: "1950px" }}>
+            <Chrono
+              items={items}
+              mode="VERTICAL_ALTERNATING"
+              mediaSettings={{ align: "center", fit: "contain" }}
+              enableBreakPoint
+              theme={{
+                primary: "teal",
+                secondary: "transparent",
+                cardBgColor: "transparent",
+                cardBgColorActive: "black",
+                titleColor: "black",
+                titleColorActive: "lightpink",
+                cardDetailedTextColor: "black",
+                cardDetailedTextColorActive: "teal",
+                cardTitleColor: "teal",
+                cardTitle: "teal",
+                cardTitleColorActive: "lightpink",
+              }}
+              fontSizes={{
+                cardSubtitle: "0.85rem",
+                cardText: "0.8rem",
+                cardTitle: "1.2rem",
+                title: "1.1rem",
+              }}
+              buttonTexts={{
+                first: "Jump to First",
+                last: "Jump to Last",
+                next: "Next",
+                previous: "Previous",
+              }}
+              classNames={{
+                card: "my-card",
+                cardMedia: "my-card-media",
+                cardSubTitle: "my-card-subtitle",
+                cardText: "my-card-text",
+                cardTitle: "my-card-title",
+                controls: "my-controls",
+                title: "my-title",
+              }}
+            />
+          </div>
         </div>
       </div>
     </div>

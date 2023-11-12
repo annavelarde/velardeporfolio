@@ -4,12 +4,13 @@
 
 .projects{
     /* border: 5px solid rgb(187, 19, 19); */
-    margin-top: 30px;
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     flex-direction: row;
+    padding-bottom: 70px;
 }
 
 .projects img {
