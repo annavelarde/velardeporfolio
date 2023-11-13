@@ -1,24 +1,24 @@
 
   .aboutContainer {
-    padding: 60px;
-    background-color: #f5f5f5;
+    background-color: #ffffff;
+    padding: 80px 80px 80px; 
     /* border: 15px solid rgb(212, 196, 212); */
   }
+
   
   .aboutContainer > div:first-child {
     flex: 1;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: #f5f5f5;
     border-radius: 5px;
-    margin-right: 20px;
+    margin-bottom: 20px; 
     border: 10px solid rgb(240, 240, 240);
-
   }
   
   .aboutContainer h1 {
     font-size: 1.5rem;
     color: teal;
-    margin-bottom: 10px;  
+    margin-top: 0;
   }
   
   .aboutContainer h3 {
@@ -26,14 +26,9 @@
     color: #666;
     margin-bottom: 20px;
     font-weight: 500px;
-    padding-top:20px;
+    padding-top:10px;
   }
-  
-  .aboutContainer p {
-    font-size: 1rem;
-    color: #777;
-  }
-  
+ 
   .aboutContainer img {
     width: 100px;
     height: 100px;
@@ -74,16 +69,82 @@
   }
 
   .sectionAbout{
-    padding-top:40px;
+    padding: 40px 20px;
   }
 
   .sectionAboutInfo{
-    padding-top:10px;
-    padding-right: 50px;
-    padding-left: 50px;
+    margin: 20px 0; 
   }
 
   .sectionAboutInfo p{
-    margin-right:20px;
-    margin-left:20px;
+    margin-right:150px;
+    margin-left:150px;
+    margin-top:30px;
   }
+
+  /* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+  .aboutContainer {
+    padding: 40px 40px 40px;
+  }
+
+  .aboutContainer > div:first-child {
+    margin-bottom: 10px;
+  }
+
+  .aboutContainer h1 {
+    font-size: 1.2rem;
+  }
+
+  .aboutContainer h3 {
+    font-size: 1rem;
+  }
+
+  .aboutContainer p {
+    font-size: 0.9rem;
+  }
+
+  .aboutContainer img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .sectionAbout {
+    padding: 30px 10px;
+  }
+
+  .sectionAboutInfo {
+    padding: 10px;
+  }
+
+  .sectionAboutInfo p {
+    margin: 10px 0;
+  }
+}
+
+/* Chrono Styles */
+/* .chronoContainer {
+  width: 500px;
+  height: 850px;
+}
+
+.my-card {
+  background-color: transparent;
+  border: none;
+}
+
+.my-card-title {
+  font-size: 1.2rem;
+  color: teal;
+}
+
+.my-card-subtitle {
+  font-size: 0.85rem;
+  color: #333;
+}
+
+.my-card-text {
+  font-size: 0.8rem;
+  color: #555;
+}
+ */
