@@ -1,7 +1,7 @@
 
   .aboutContainer {
     background-color: #ffffff;
-    padding: 80px 80px 80px; 
+    padding: 100px 300px 100px; 
     /* border: 15px solid rgb(212, 196, 212); */
   }
 
@@ -77,13 +77,13 @@
   }
 
   .sectionAboutInfo p{
-    margin-right:150px;
-    margin-left:150px;
+    margin-right:20px;
+    margin-left:20px;
     margin-top:30px;
   }
 
   /* Media Query for smaller screens */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
   .aboutContainer {
     padding: 40px 40px 40px;
   }
